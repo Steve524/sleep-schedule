@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Sleep Schedule</name>
+  <author>Steven</author>
+  <packageId>steven.sleepschedule</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Sleep Schedule mod project. Setup only; gameplay features are not implemented yet.</description>
+</ModMetaData>

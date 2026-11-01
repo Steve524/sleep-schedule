@@ -1,0 +1,13 @@
+# Harness kit from RimWorldModToolbox\kit.py: machine-specific, never commit.
+.claude/
+.agents/
+.codex/
+.cursor/
+.muse/
+.mcp.json
+opencode.json
+
+# Build output
+obj/
+bin/
+.vs/
