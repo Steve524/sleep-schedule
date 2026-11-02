@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- General -->
+  <SSP.ModTitle>Sleep Schedule Presets</SSP.ModTitle>
+  <SSP.OpenManager>Manage presets…</SSP.OpenManager>
+  <SSP.Presets>Presets</SSP.Presets>
+  <SSP.Presets.Tip>Open the Sleep Schedule Presets manager.</SSP.Presets.Tip>
+  <SSP.PresetSummary>{0} h sleep, {1} h work, {2} h recreation</SSP.PresetSummary>
+  <SSP.PresetSummary.Meditate>{0} h sleep, {1} h work, {2} h recreation, {3} h meditation</SSP.PresetSummary.Meditate>
+
+  <!-- Settings -->
+  <SSP.Settings.Intro>Sleep Schedule Presets lets you save named 24-hour schedules and apply them to colonists in one click. Presets in My library follow you across every save file. Presets in This colony stay inside the current save.</SSP.Settings.Intro>
+  <SSP.Settings.Multiplayer>In Multiplayer, each player keeps their own library. Colony presets and schedule changes are synced.</SSP.Settings.Multiplayer>
+  <SSP.Settings.LoadGameHint>Load or start a game to manage per-colony presets.</SSP.Settings.LoadGameHint>
+
+  <!-- Built-in presets -->
+  <SSP.Builtin.VanillaDay>Vanilla Day</SSP.Builtin.VanillaDay>
+  <SSP.Builtin.DayWorker>Day Worker</SSP.Builtin.DayWorker>
+  <SSP.Builtin.NightOwl>Night Owl</SSP.Builtin.NightOwl>
+  <SSP.Builtin.NightShift>Night Shift</SSP.Builtin.NightShift>
+  <SSP.Builtin.Biphasic>Biphasic</SSP.Builtin.Biphasic>
+  <SSP.Builtin.Child>Child</SSP.Builtin.Child>
+  <SSP.Builtin.Psycaster>Psycaster</SSP.Builtin.Psycaster>
+
+  <!-- Gizmo + float menu -->
+  <SSP.Gizmo.Label>Schedule preset</SSP.Gizmo.Label>
+  <SSP.Gizmo.Desc>Apply a saved schedule preset to the selected colonist(s).</SSP.Gizmo.Desc>
+  <SSP.Tier.Global>My library</SSP.Tier.Global>
+  <SSP.Tier.Save>This colony</SSP.Tier.Save>
+  <SSP.MenuEntry>{0}  ({1})</SSP.MenuEntry>
+  <SSP.NoPresets>(No presets yet)</SSP.NoPresets>
+  <SSP.Applied>Applied "{0}" to {1} colonist(s).</SSP.Applied>
+
+  <!-- Manager window -->
+  <SSP.SelectPresetHint>Select a preset to preview its schedule.</SSP.SelectPresetHint>
+  <SSP.NoSelection>No preset selected</SSP.NoSelection>
+  <SSP.EmptyList>No presets in this list. Use New… to make one.</SSP.EmptyList>
+  <SSP.Tab.Global>My library ({0})</SSP.Tab.Global>
+  <SSP.Tab.Save>This colony ({0})</SSP.Tab.Save>
+  <SSP.Tab.SaveUnavailable>This colony (no game)</SSP.Tab.SaveUnavailable>
+  <SSP.Tab.Global.Tip>Your personal preset library. Follows you across all colonies and save files. In Multiplayer, each player has their own library.</SSP.Tab.Global.Tip>
+  <SSP.Tab.Save.Tip>Presets stored inside the current save. Shared by the whole colony and synced in Multiplayer.</SSP.Tab.Save.Tip>
+  <SSP.New>New…</SSP.New>
+  <SSP.Duplicate>Duplicate</SSP.Duplicate>
+  <SSP.Delete>Delete</SSP.Delete>
+  <SSP.Edit>Edit</SSP.Edit>
+  <SSP.ApplyToSelected>Apply to selected ({0})</SSP.ApplyToSelected>
+  <SSP.ApplyToSelected.None>Select one or more colonists first.</SSP.ApplyToSelected.None>
+  <SSP.SetDefault>Set as new-pawn default</SSP.SetDefault>
+  <SSP.SetDefault.NeedGame>Load a game to set a per-colony default.</SSP.SetDefault.NeedGame>
+  <SSP.ClearDefault>Clear new-pawn default</SSP.ClearDefault>
+  <SSP.CurrentDefault>New colonists get: {0}</SSP.CurrentDefault>
+  <SSP.CurrentDefault.None>New colonists get: the vanilla schedule</SSP.CurrentDefault.None>
+  <SSP.DefaultSet>New colonists will now default to "{0}".</SSP.DefaultSet>
+  <SSP.DefaultCleared>New colonists will use the vanilla schedule.</SSP.DefaultCleared>
+  <SSP.MpSyncBlocked>Multiplayer sync is unavailable, so that change was not made.</SSP.MpSyncBlocked>
+
+  <!-- New preset menu -->
+  <SSP.New.FromScratch>New (from scratch)</SSP.New.FromScratch>
+  <SSP.New.FromColonist>New (from {0})</SSP.New.FromColonist>
+  <SSP.New.FromColonist.None>New (from colonist — none selected)</SSP.New.FromColonist.None>
+  <SSP.NewPresetName>New preset</SSP.NewPresetName>
+  <SSP.PresetFromName>{0}'s schedule</SSP.PresetFromName>
+  <SSP.CopyName>{0} (copy)</SSP.CopyName>
+  <SSP.Delete.Confirm>Delete the preset "{0}"?</SSP.Delete.Confirm>
+
+  <!-- Edit dialog -->
+  <SSP.Edit.Title>Edit preset</SSP.Edit.Title>
+  <SSP.Edit.TitleNew>New preset</SSP.Edit.TitleNew>
+  <SSP.Edit.Name>Name</SSP.Edit.Name>
+  <SSP.Edit.PaintHint>Pick an assignment, then click or drag across the hours.</SSP.Edit.PaintHint>
+  <SSP.Edit.Capture>Copy from colonist</SSP.Edit.Capture>
+  <SSP.Edit.Capture.Tip>Copy the schedule from {0} (the first selected colonist).</SSP.Edit.Capture.Tip>
+  <SSP.Edit.FillAll>Fill all hours</SSP.Edit.FillAll>
+  <SSP.Edit.FillAll.Tip>Set every hour to the selected assignment.</SSP.Edit.FillAll.Tip>
+  <SSP.Edit.ResetVanilla>Reset to vanilla</SSP.Edit.ResetVanilla>
+  <SSP.Edit.LowSleep>Only {0} h of sleep. Colonists on this schedule may run short on rest.</SSP.Edit.LowSleep>
+  <SSP.Cell.Tip>{0}: {1}</SSP.Cell.Tip>
+  <SSP.Cancel>Cancel</SSP.Cancel>
+  <SSP.Save>Save</SSP.Save>
+
+</LanguageData>

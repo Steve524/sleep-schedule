@@ -3,8 +3,46 @@
   <name>Sleep Schedule</name>
   <author>Steven</author>
   <packageId>steven.sleepschedule</packageId>
+  <modVersion>1.0.0</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>Sleep Schedule mod project. Setup only; gameplay features are not implemented yet.</description>
+  <description>Save named 24-hour schedules and apply them to colonists in one click.
+
+What it does
+- Paint a 24-hour schedule (Anything, Work, Recreation, Sleep, Meditate) and save it as a preset.
+- Apply a preset to one or many colonists from the Schedule tab or the colonist gizmo.
+- Copy a colonist's current schedule into a new preset.
+- Set a preset as the default for new colonists.
+- Starter presets included: Vanilla Day, Day Worker, Night Owl, Night Shift, Biphasic, Child, Psycaster.
+
+How to use
+- Open the Schedule tab and click Presets, or select colonists and use the Schedule preset gizmo.
+- Make or edit presets in the manager. Hours are painted by clicking or dragging.
+- Mod settings: open the manager from the Mod Settings page.
+
+Two places to keep presets
+- My library: your personal presets. They live in mod settings and follow you across every save file.
+- This colony: stored inside the save. Shared by everyone playing that colony.
+
+Multiplayer
+Supported. Each player has their own My library. Colony presets, applying a preset and the new-pawn default are synced. Load this mod after Multiplayer.
+
+Requirements
+- Harmony (required).
+- Royalty is optional. Meditate hours only appear with Royalty.
+
+Safe to add to an existing save. Removing it leaves schedules as they are.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>rwmt.Multiplayer</li>
+  </loadAfter>
 </ModMetaData>
