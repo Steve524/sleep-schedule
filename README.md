@@ -1,3 +1,5 @@
+![Sleep Schedule banner](Docs/banner.png)
+
 # Sleep Schedule
 
 Save named 24-hour schedules and apply them to colonists in RimWorld 1.6.
