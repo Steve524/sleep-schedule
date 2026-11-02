@@ -3,6 +3,7 @@
   <name>Sleep Schedule</name>
   <author>Steven</author>
   <packageId>steven.sleepschedule</packageId>
+  <modIconPath>SleepSchedule/Icon</modIconPath>
   <modVersion>1.0.0</modVersion>
   <supportedVersions>
     <li>1.6</li>
